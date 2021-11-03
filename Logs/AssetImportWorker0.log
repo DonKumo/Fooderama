@@ -1,0 +1,1014 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1288; Version 2009; 64bit' Language: 'pt' Physical Memory: 16297 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+F:\Unity\UnityEditor\2020.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/under/MyGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52876
+Successfully changed project path to: C:/Users/under/MyGame
+C:/Users/under/MyGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 32.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.21f1 (a38c86f6690f)
+[Subsystems] Discovering subsystems at path F:/Unity/UnityEditor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/under/MyGame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.14.9613
+Initialize mono
+Mono path[0] = 'F:/Unity/UnityEditor/2020.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Unity/UnityEditor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'F:/Unity/UnityEditor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Unity/UnityEditor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000999 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 30.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.844 seconds
+Domain Reload Profiling:
+	ReloadAssembly (844ms)
+		BeginReloadAssembly (51ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (398ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (142ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (146ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004370 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.907 seconds
+Domain Reload Profiling:
+	ReloadAssembly (908ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (718ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (260ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1491 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.5 MB.
+System memory in use after: 81.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1944.
+Total: 2.710200 ms (FindLiveObjects: 0.149300 ms CreateObjectMapping: 0.054100 ms MarkObjects: 2.417100 ms  DeleteObjects: 0.088600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Outside/Five Seamless Tileable Ground Textures/Materials/Grey Stones.mat
+  artifactKey: Guid(052821051301bb849ab0e4f50ad32d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Five Seamless Tileable Ground Textures/Materials/Grey Stones.mat using Guid(052821051301bb849ab0e4f50ad32d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183a9a2dc0476517f3aff1fa8ffd84c3') in 0.129053 seconds 
+  Import took 0.131683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 312.699498 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials
+  artifactKey: Guid(a3bc40a4511cbe84ea60ec7643b12191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials using Guid(a3bc40a4511cbe84ea60ec7643b12191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c63897dcaf0a91cdf10e7f428cf5554') in 0.007959 seconds 
+  Import took 0.010656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077774 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/snow_1_tga.tga
+  artifactKey: Guid(1f27a16ed04f7e0499cca9e2d233da4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/snow_1_tga.tga using Guid(1f27a16ed04f7e0499cca9e2d233da4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f899602c9cd5ba103d12fcdbf67cb549') in 0.021287 seconds 
+  Import took 0.024093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/snow_2_tga.tga
+  artifactKey: Guid(9eccbb07d6b64db459a718c90fcb504e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/snow_2_tga.tga using Guid(9eccbb07d6b64db459a718c90fcb504e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb87254d6a7508205ba1e7dee24b47b') in 0.012563 seconds 
+  Import took 0.014804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/snow_3_tga.tga
+  artifactKey: Guid(27cfa95353763794dafd1452e4c6b6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/snow_3_tga.tga using Guid(27cfa95353763794dafd1452e4c6b6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06dcf5f1aa9b78746b9abe105e5ba85c') in 0.010507 seconds 
+  Import took 0.012704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/snow_4_tga.tga
+  artifactKey: Guid(7d91d62b3e622674cb6296921eb9db25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/snow_4_tga.tga using Guid(7d91d62b3e622674cb6296921eb9db25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed51236dc1a1287a306b1f853d72d406') in 0.010427 seconds 
+  Import took 0.012594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.880306 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/Maps
+  artifactKey: Guid(a73428e0c69630c45b292aaf8cdf8f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/Maps using Guid(a73428e0c69630c45b292aaf8cdf8f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f17fb41dbdba2a229deb1223851485') in 0.006500 seconds 
+  Import took 0.008878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.355117 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/Materials
+  artifactKey: Guid(6408c8719169e4e458e33b2096c89553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/Materials using Guid(6408c8719169e4e458e33b2096c89553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7913eddf73f16986d0cd068cc85cd931') in 0.006274 seconds 
+  Import took 0.008640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102278 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/Materials/snow_1_tga.mat
+  artifactKey: Guid(049886ac1c9be8d4db643c92eee3880f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/Materials/snow_1_tga.mat using Guid(049886ac1c9be8d4db643c92eee3880f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f53bc8815d687cee05c4011a0478866') in 0.263919 seconds 
+  Import took 0.266700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/Materials/snow_3_tga.mat
+  artifactKey: Guid(1a37d212766c4e444bd183225d3816c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/Materials/snow_3_tga.mat using Guid(1a37d212766c4e444bd183225d3816c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a397187c425e69288fd540e8b0f302e') in 0.014333 seconds 
+  Import took 0.016534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/Materials/snow_4_tga.mat
+  artifactKey: Guid(5a8eb8738b1403240ad8173266802e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/Materials/snow_4_tga.mat using Guid(5a8eb8738b1403240ad8173266802e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2396ef3b59ab086d7d5dc79e61699ad2') in 0.015128 seconds 
+  Import took 0.017341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/Materials/snow_2_tga.mat
+  artifactKey: Guid(b2b1efd5c01d2a04e975a4b2fa45450b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/Materials/snow_2_tga.mat using Guid(b2b1efd5c01d2a04e975a4b2fa45450b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1b61cf14dfccfde220057bf3104f9f') in 0.013811 seconds 
+  Import took 0.016017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.965807 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_02_Normal.png
+  artifactKey: Guid(513e0ab45de0f08489c98d2664fcb8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_02_Normal.png using Guid(513e0ab45de0f08489c98d2664fcb8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c4e960b974d30e3bf05fae0a7591d7') in 0.059023 seconds 
+  Import took 0.061852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_03_BaseColor_Glossiness.png
+  artifactKey: Guid(4bf2011489b71bb44ad1165c1618ddbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_03_BaseColor_Glossiness.png using Guid(4bf2011489b71bb44ad1165c1618ddbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5770526d14d3c08b96021876878d497') in 0.013583 seconds 
+  Import took 0.015834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.270033 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_03_Normal.png
+  artifactKey: Guid(e20bb23288b25dc459b1ebb2c6347cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_03_Normal.png using Guid(e20bb23288b25dc459b1ebb2c6347cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bd8477424f6f737aa167d035d173dd') in 0.017612 seconds 
+  Import took 0.021627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_04_BaseColor_Glossiness.png
+  artifactKey: Guid(11b51df27f4b59142a3e5371b0e668c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_04_BaseColor_Glossiness.png using Guid(11b51df27f4b59142a3e5371b0e668c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7eef0d000848d5dff51c89aee4c5d1a') in 0.009264 seconds 
+  Import took 0.011419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_05_BaseColor_Glossiness.png
+  artifactKey: Guid(a8358b04615ca0946b4e9d40ddd58fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_05_BaseColor_Glossiness.png using Guid(a8358b04615ca0946b4e9d40ddd58fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2074cc4b88c7e2118ed81ac8560572') in 0.013050 seconds 
+  Import took 0.015279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_04_Normal.png
+  artifactKey: Guid(e2fd45e61dd5a454cae20fc5dde0ebdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_04_Normal.png using Guid(e2fd45e61dd5a454cae20fc5dde0ebdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83090cd68f3a605261ee466f8c043728') in 0.009124 seconds 
+  Import took 0.011276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.280342 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_05_Normal.png
+  artifactKey: Guid(98e7ddac69b21ea4d99f60b746c8adfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_05_Normal.png using Guid(98e7ddac69b21ea4d99f60b746c8adfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc963ed0ae3806f2a8e6b4792bace7d') in 0.013941 seconds 
+  Import took 0.016458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_06_BaseColor_Glossiness.png
+  artifactKey: Guid(7cda2030cef8c7440b3e2324d9527b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_06_BaseColor_Glossiness.png using Guid(7cda2030cef8c7440b3e2324d9527b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00c854eccc3e2a744bd822979dd6ee1') in 0.016517 seconds 
+  Import took 0.018808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031373 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_06_Normal.png
+  artifactKey: Guid(2507991534fce4541b5efbba459a0788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_06_Normal.png using Guid(2507991534fce4541b5efbba459a0788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a45929b1dad66a8bdd54654dcbdffcf') in 0.013527 seconds 
+  Import took 0.015981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_07_BaseColor_Glossiness.png
+  artifactKey: Guid(ef00f2b3ab040b744b859824c39dfa9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_07_BaseColor_Glossiness.png using Guid(ef00f2b3ab040b744b859824c39dfa9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d36ebe614c6791236db9be203797b86') in 0.014117 seconds 
+  Import took 0.016335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.291137 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_07_Normal.png
+  artifactKey: Guid(3b128be3afa09d941995f8b8d34d66a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_07_Normal.png using Guid(3b128be3afa09d941995f8b8d34d66a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300cf1b55e153e5a6d7488f1a2278489') in 0.015463 seconds 
+  Import took 0.018395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_09_BaseColor_Glossiness.png
+  artifactKey: Guid(8c3622e9195a3644bb5cde851ee8a1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_09_BaseColor_Glossiness.png using Guid(8c3622e9195a3644bb5cde851ee8a1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd663729cd45bad981c00455e3f3626b') in 0.017596 seconds 
+  Import took 0.019970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_08_Normal.png
+  artifactKey: Guid(01112d541457a1d449b21972f3e6386e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_08_Normal.png using Guid(01112d541457a1d449b21972f3e6386e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b1a35a1752fc6523c1dd6a7b86ab4d') in 0.017267 seconds 
+  Import took 0.019842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_08_BaseColor_Glossiness.png
+  artifactKey: Guid(8e83078670770be4185e3170e13e3a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_08_BaseColor_Glossiness.png using Guid(8e83078670770be4185e3170e13e3a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac457caee50a2dd3829001cafd22b149') in 0.015341 seconds 
+  Import took 0.017911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.253639 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_09_Normal.png
+  artifactKey: Guid(ca9968e8ed3dd94469606b44ad1a900e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_09_Normal.png using Guid(ca9968e8ed3dd94469606b44ad1a900e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72e9574619cbfad16e696797874a55c') in 0.013492 seconds 
+  Import took 0.016160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_10_BaseColor_Glossiness.png
+  artifactKey: Guid(3de94cca556145545999d83c91901161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_10_BaseColor_Glossiness.png using Guid(3de94cca556145545999d83c91901161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cc1524f0db4b2ec9baaaaec8827d86') in 0.013341 seconds 
+  Import took 0.015647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.698918 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_10_Normal.png
+  artifactKey: Guid(36bb662b08e507c4180b2ab12ee1d4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_10_Normal.png using Guid(36bb662b08e507c4180b2ab12ee1d4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a27b18f13745e5f8485482d5b2d006') in 0.017107 seconds 
+  Import took 0.020048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_01_AmbientOcclusion.png
+  artifactKey: Guid(71ef6a328aa964d40a016780bcfa929c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_01_AmbientOcclusion.png using Guid(71ef6a328aa964d40a016780bcfa929c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116c51d8e8ad40661a2d489350265d3a') in 0.017433 seconds 
+  Import took 0.020183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_01_MetallicGlossiness.png
+  artifactKey: Guid(c85a9c6f8ffde5a4d96fa99bc1b406cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_01_MetallicGlossiness.png using Guid(c85a9c6f8ffde5a4d96fa99bc1b406cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d03d3f2f30394282a3c322c23f57818') in 0.017137 seconds 
+  Import took 0.020130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_04_MetallicGlossiness.png
+  artifactKey: Guid(0f818bdb12e7b194cb0439eb17d3aa7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_04_MetallicGlossiness.png using Guid(0f818bdb12e7b194cb0439eb17d3aa7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c1443627cdbc45d82ec1d3d094d73d') in 0.016638 seconds 
+  Import took 0.019646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_13_Normal.png
+  artifactKey: Guid(0d714df6553fa3940bca6adf8de4b6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_13_Normal.png using Guid(0d714df6553fa3940bca6adf8de4b6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c717d4cc06f50247bf86bb59199227') in 0.018304 seconds 
+  Import took 0.020834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_04_Normal.png
+  artifactKey: Guid(485dc808a39f9364d9782c903c523844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_04_Normal.png using Guid(485dc808a39f9364d9782c903c523844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df26e17132bda5ce22af630c2e5edc8') in 0.014752 seconds 
+  Import took 0.017740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_10_MetallicGlossiness.png
+  artifactKey: Guid(c8f55187ce1ef6044a6ae242a74c8cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_10_MetallicGlossiness.png using Guid(c8f55187ce1ef6044a6ae242a74c8cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787ae7a62a1e9ae8c24b269f62edd488') in 0.014916 seconds 
+  Import took 0.017423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_11_Normal.png
+  artifactKey: Guid(1f4700eef8421874b8c2ff98a969c8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_11_Normal.png using Guid(1f4700eef8421874b8c2ff98a969c8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f6506515c20dd7f8d352857a3d8fcf') in 0.020359 seconds 
+  Import took 0.022937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_13_MetallicGlossiness.png
+  artifactKey: Guid(2ace7a66f46221f49a2122ebeee14f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_13_MetallicGlossiness.png using Guid(2ace7a66f46221f49a2122ebeee14f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2daa5d122ce0d4ec564b06a883b7e4e') in 0.023555 seconds 
+  Import took 0.025977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_10_Normal.png
+  artifactKey: Guid(5699ca47aa165a648bba008a43964389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_10_Normal.png using Guid(5699ca47aa165a648bba008a43964389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7727f3e070da73d1375435dc569ea18c') in 0.020078 seconds 
+  Import took 0.022528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_2_he.tga
+  artifactKey: Guid(5f63f3488be4a0149b36e65a97287ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_2_he.tga using Guid(5f63f3488be4a0149b36e65a97287ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522c40137a0f8d8aba570d233d237fc3') in 0.013324 seconds 
+  Import took 0.015707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_2_ao.tga
+  artifactKey: Guid(b09011637698d8941a5f74d22fd32663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_2_ao.tga using Guid(b09011637698d8941a5f74d22fd32663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a08844981ea52cd9f36c6e262977d61') in 0.011621 seconds 
+  Import took 0.014061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_13_AmbientOcclusion.png
+  artifactKey: Guid(3f1fb11b6d395a440ab2cf8956282be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_13_AmbientOcclusion.png using Guid(3f1fb11b6d395a440ab2cf8956282be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387b1a551c061fb5cb13904c67aaab08') in 0.015041 seconds 
+  Import took 0.017452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_02_AmbientOcclusion.png
+  artifactKey: Guid(43f1c2e3a6f243049a64671ba5dc6a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_02_AmbientOcclusion.png using Guid(43f1c2e3a6f243049a64671ba5dc6a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0cc31f4fbf13ee7b7abfeb80ad07cc') in 0.020257 seconds 
+  Import took 0.022781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_3_he.tga
+  artifactKey: Guid(431c045110d1b9b49a449564ebaae4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_3_he.tga using Guid(431c045110d1b9b49a449564ebaae4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7717ebf7bf1c0a083613d7de15d6de0') in 0.012624 seconds 
+  Import took 0.015026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_4_ao.tga
+  artifactKey: Guid(aca0e40c1888e2c488118d2ed82b8ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_4_ao.tga using Guid(aca0e40c1888e2c488118d2ed82b8ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6015df61bf7b2918aa3f6f215ac035') in 0.018708 seconds 
+  Import took 0.021409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_07_BaseColor.png
+  artifactKey: Guid(277f605da43bb6747a17207b88c12e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_07_BaseColor.png using Guid(277f605da43bb6747a17207b88c12e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357b8be6acaab06ffcfea9c643ebdf4c') in 0.025190 seconds 
+  Import took 0.027719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_13_Normal.png
+  artifactKey: Guid(e9c7c21f1c51439499f9df512661fdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_13_Normal.png using Guid(e9c7c21f1c51439499f9df512661fdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd2dbff212069b8d670b53944a66f8e') in 0.015328 seconds 
+  Import took 0.017778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_13_BaseColor_Glossiness.png
+  artifactKey: Guid(9650f0a3ef13b14458de09d57280ec08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_13_BaseColor_Glossiness.png using Guid(9650f0a3ef13b14458de09d57280ec08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d89bfe10a159b94e9bfc5684b14da9d') in 0.015632 seconds 
+  Import took 0.018093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_12_BaseColor_Glossiness.png
+  artifactKey: Guid(307097ea7589af44f9f4f180eaf9a105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_12_BaseColor_Glossiness.png using Guid(307097ea7589af44f9f4f180eaf9a105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8232723def032fdaf9c0dc9eb1d0805') in 0.019230 seconds 
+  Import took 0.021629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_07_Normal.png
+  artifactKey: Guid(f0dc3e2933d67144e8c7bc309885ca04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_07_Normal.png using Guid(f0dc3e2933d67144e8c7bc309885ca04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e779cd91f83405836df42489287276f') in 0.017059 seconds 
+  Import took 0.019485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_4_he.tga
+  artifactKey: Guid(d6072d06a68dea94782a93f402bc11ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_4_he.tga using Guid(d6072d06a68dea94782a93f402bc11ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e991da1ff13af00bba7ad1c980533e69') in 0.012752 seconds 
+  Import took 0.015235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_1_ao.tga
+  artifactKey: Guid(7862c6a7adea56e44949c5039b1a8f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_1_ao.tga using Guid(7862c6a7adea56e44949c5039b1a8f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96703f7f6104142ba30eda61ba4a93a') in 0.013050 seconds 
+  Import took 0.015698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_02_Normal.png
+  artifactKey: Guid(db5d1de51482102409ef48db899fdd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_02_Normal.png using Guid(db5d1de51482102409ef48db899fdd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916e68687483698ed381b59719e582eb') in 0.015995 seconds 
+  Import took 0.018634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_07_AmbientOcclusion.png
+  artifactKey: Guid(186d7a837e8559b49814ccae68bb9ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_07_AmbientOcclusion.png using Guid(186d7a837e8559b49814ccae68bb9ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12af2d8abacfb351f625ffbc1c9c5599') in 0.015820 seconds 
+  Import took 0.018504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_08_MetallicGlossiness.png
+  artifactKey: Guid(7ee854f845aa58c4cb9ef5b323bb57ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_08_MetallicGlossiness.png using Guid(7ee854f845aa58c4cb9ef5b323bb57ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c2bb2eed1a28d17bdc4fa03e06592d') in 0.016223 seconds 
+  Import took 0.018871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_02_MetallicGlossiness.png
+  artifactKey: Guid(b42d109ac1d14f44ea490a80a30d0f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_02_MetallicGlossiness.png using Guid(b42d109ac1d14f44ea490a80a30d0f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35185d20b792e40a82fff32bb2521fc') in 0.015844 seconds 
+  Import took 0.018506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_3_ao.tga
+  artifactKey: Guid(be8c588146460864ab61c3973fdb5e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_3_ao.tga using Guid(be8c588146460864ab61c3973fdb5e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e7dc271175339339af8438f3b97621') in 0.014130 seconds 
+  Import took 0.016779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_08_Normal.png
+  artifactKey: Guid(e34aba33b187b6d4eb759ceff6bdd539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_08_Normal.png using Guid(e34aba33b187b6d4eb759ceff6bdd539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d50826993691d64fa0d7d6b5ce7f8dc') in 0.016550 seconds 
+  Import took 0.019953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_1_he.tga
+  artifactKey: Guid(690a12b77a6c8684fa83eba813b1d433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_1_he.tga using Guid(690a12b77a6c8684fa83eba813b1d433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014deb58c42319340b2f34afefac7291') in 0.012181 seconds 
+  Import took 0.014792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_07_MetallicGlossiness.png
+  artifactKey: Guid(1ceb17fdbb5806643b83fa30be883eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_07_MetallicGlossiness.png using Guid(1ceb17fdbb5806643b83fa30be883eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae4bf7f073446bdf559fe8f73cb9b2a') in 0.016943 seconds 
+  Import took 0.019818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_12_AmbientOcclusion.png
+  artifactKey: Guid(1d02f93433275bd4ebf1fe4e2d45ca2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_12_AmbientOcclusion.png using Guid(1d02f93433275bd4ebf1fe4e2d45ca2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d1ff90f3e5be6093c000411a05a2bb') in 0.015824 seconds 
+  Import took 0.018441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_03_AmbientOcclusion.png
+  artifactKey: Guid(5ad20e7f5a312a74582e325b16e3fe8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_03_AmbientOcclusion.png using Guid(5ad20e7f5a312a74582e325b16e3fe8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873af0ec1ae176be1da2238dbfd68347') in 0.014038 seconds 
+  Import took 0.016549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_3_nmp.tga
+  artifactKey: Guid(018ff50f226802b41ba1fe4e14f9d831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_3_nmp.tga using Guid(018ff50f226802b41ba1fe4e14f9d831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a590364932a0e8fe1d447797195ca03') in 0.014854 seconds 
+  Import took 0.017665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_11_BaseColor.png
+  artifactKey: Guid(6b3342a7381ab074d8afd9c15daf99b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_11_BaseColor.png using Guid(6b3342a7381ab074d8afd9c15daf99b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0d48bbb1ed3c30092b1cb910abd7f2') in 0.016188 seconds 
+  Import took 0.019353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_1_nmp.tga
+  artifactKey: Guid(310d1ec2ed5c49b4abeeb1835a5d28c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_1_nmp.tga using Guid(310d1ec2ed5c49b4abeeb1835a5d28c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6e574a4db5b25ee8cf673b2481aa13') in 0.013805 seconds 
+  Import took 0.016354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_11_BaseColor_Glossiness.png
+  artifactKey: Guid(763b566da7f29644eb396887f71c3011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_11_BaseColor_Glossiness.png using Guid(763b566da7f29644eb396887f71c3011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009da129fb0333be8aa2b280bd47eb8d') in 0.017102 seconds 
+  Import took 0.019535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_11_Normal.png
+  artifactKey: Guid(87a7010721d2f5140b782e25781a07c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_11_Normal.png using Guid(87a7010721d2f5140b782e25781a07c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c84964708fe3dd5dfcd26a8e4d6f3c') in 0.015177 seconds 
+  Import took 0.017580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_2_nmp.tga
+  artifactKey: Guid(c85451086709c8f44b6f4609f1377f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_2_nmp.tga using Guid(c85451086709c8f44b6f4609f1377f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915a974f7019c05401054417e456f55a') in 0.012474 seconds 
+  Import took 0.014856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_03_BaseColor.png
+  artifactKey: Guid(04bd58f8a5260654aa62738b3ad39e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_03_BaseColor.png using Guid(04bd58f8a5260654aa62738b3ad39e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bdb07f29712b7139d1cbb105465d7f7') in 0.015530 seconds 
+  Import took 0.018118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_04_BaseColor.png
+  artifactKey: Guid(8ed57048975bf1f4092a0c33e786f95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_04_BaseColor.png using Guid(8ed57048975bf1f4092a0c33e786f95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0dd0116bd52db37827ee9631b3990ab') in 0.016866 seconds 
+  Import took 0.019652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_04_AmbientOcclusion.png
+  artifactKey: Guid(35998df4f64addb42bc793fa5fdcb080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_04_AmbientOcclusion.png using Guid(35998df4f64addb42bc793fa5fdcb080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77d0e93849d660eecf3b456d145d2ab') in 0.016715 seconds 
+  Import took 0.019579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_10_AmbientOcclusion.png
+  artifactKey: Guid(c3b6d72badc5fef4eb38be326c40ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_10_AmbientOcclusion.png using Guid(c3b6d72badc5fef4eb38be326c40ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde44f714eaff551d6a5a44e90eb0244') in 0.014657 seconds 
+  Import took 0.017340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_10_BaseColor.png
+  artifactKey: Guid(56f2a5d2f0383ca418c1fa7af36f8ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_10_BaseColor.png using Guid(56f2a5d2f0383ca418c1fa7af36f8ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b822523e2c4588f720608fd15777e4') in 0.016092 seconds 
+  Import took 0.018796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_03_Normal.png
+  artifactKey: Guid(74fc44d521658274c8c1f06df3894d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_03_Normal.png using Guid(74fc44d521658274c8c1f06df3894d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023ad7045b3ae4239c93eb1dbd9b9e4c') in 0.019053 seconds 
+  Import took 0.021475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_02_BaseColor.png
+  artifactKey: Guid(55c6cf5cdc583c54785a763678fa3752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_02_BaseColor.png using Guid(55c6cf5cdc583c54785a763678fa3752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971bebd107a84d346c8c40f3268be682') in 0.016307 seconds 
+  Import took 0.018836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_05_AmbientOcclusion.png
+  artifactKey: Guid(f5e6ba1e18cb68f4fad802e42e411c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_05_AmbientOcclusion.png using Guid(f5e6ba1e18cb68f4fad802e42e411c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb02f1f71cba1a19404d8267fd2ef9b0') in 0.014897 seconds 
+  Import took 0.017368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_12_Normal.png
+  artifactKey: Guid(b48d59ca1a811204280e08722869c265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_12_Normal.png using Guid(b48d59ca1a811204280e08722869c265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7121b6b35422117b06094e53a5b2e4a3') in 0.015275 seconds 
+  Import took 0.018257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_11_AmbientOcclusion.png
+  artifactKey: Guid(0372d0d362a06714e876934e8b9a319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_11_AmbientOcclusion.png using Guid(0372d0d362a06714e876934e8b9a319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84042c735f7b307fbda9bf6c1839110') in 0.014845 seconds 
+  Import took 0.017320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_09_Normal.png
+  artifactKey: Guid(c6a358b56185b4d4897ca365ace7ee6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_09_Normal.png using Guid(c6a358b56185b4d4897ca365ace7ee6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3853715d46869d521490f4aadfee6243') in 0.017334 seconds 
+  Import took 0.019687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_03_MetallicGlossiness.png
+  artifactKey: Guid(60069277b261bae4f8fcadbb85a78934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_03_MetallicGlossiness.png using Guid(60069277b261bae4f8fcadbb85a78934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba40229406642c90940105c34910da9d') in 0.016335 seconds 
+  Import took 0.018985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_11_MetallicGlossiness.png
+  artifactKey: Guid(f12a60119b81f4a418438d8dc528becf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_11_MetallicGlossiness.png using Guid(f12a60119b81f4a418438d8dc528becf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96b63b0b1d8b4dff758ba4e35103365') in 0.016511 seconds 
+  Import took 0.018993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_12_Normal.png
+  artifactKey: Guid(3708652e407ee4a40a30ddfd6a085bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/Mob_Baseball_Bat_12_Normal.png using Guid(3708652e407ee4a40a30ddfd6a085bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b944358a70788a284c0db17ee81c381') in 0.014984 seconds 
+  Import took 0.017402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_12_BaseColor.png
+  artifactKey: Guid(4fe25f0b55d157e46a30dd70ddf98ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_12_BaseColor.png using Guid(4fe25f0b55d157e46a30dd70ddf98ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ff0c3ae74abf483677bd98b5618a69') in 0.015182 seconds 
+  Import took 0.017877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_13_BaseColor.png
+  artifactKey: Guid(86072ac271017704295e510bd472770f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_13_BaseColor.png using Guid(86072ac271017704295e510bd472770f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb6e2435ffa9e6eb1450227bc4c3dc8') in 0.015952 seconds 
+  Import took 0.018357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_09_MetallicGlossiness.png
+  artifactKey: Guid(eefb73345ed242c4a80bbdb09d5a17be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_09_MetallicGlossiness.png using Guid(eefb73345ed242c4a80bbdb09d5a17be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f3ea1f2a854693929e82258bcd4a21') in 0.016867 seconds 
+  Import took 0.019943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_08_AmbientOcclusion.png
+  artifactKey: Guid(088738cc1bec7964b9754f2c4c2ddd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_08_AmbientOcclusion.png using Guid(088738cc1bec7964b9754f2c4c2ddd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe60be4b2b838207ae0162505d5b710') in 0.026541 seconds 
+  Import took 0.029099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_12_MetallicGlossiness.png
+  artifactKey: Guid(c512bcb8f8fbdcd49b0bfaf98b8ca9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_12_MetallicGlossiness.png using Guid(c512bcb8f8fbdcd49b0bfaf98b8ca9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85a935f8a70232724b8b647a4c9a894') in 0.016477 seconds 
+  Import took 0.019506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_09_AmbientOcclusion.png
+  artifactKey: Guid(7d954af86b36d48408d96cd75d0fe43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_09_AmbientOcclusion.png using Guid(7d954af86b36d48408d96cd75d0fe43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83977b395f350248f902d8c8d4c7714e') in 0.015675 seconds 
+  Import took 0.018720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_08_BaseColor.png
+  artifactKey: Guid(e57a37748322dbd4a9e9bdcd0b3557af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_08_BaseColor.png using Guid(e57a37748322dbd4a9e9bdcd0b3557af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb65ee46d35d1360d6231d44430f90f3') in 0.016962 seconds 
+  Import took 0.019555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_01_Normal.png
+  artifactKey: Guid(90be9f8ef16dfc94c8ec82af47833b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_01_Normal.png using Guid(90be9f8ef16dfc94c8ec82af47833b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c6fa12f473b765b542ddbc8964de08') in 0.016952 seconds 
+  Import took 0.019579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_4_nmp.tga
+  artifactKey: Guid(b94c589c22e0b454a8d9d1265e4aa333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/Maps/snow_4_nmp.tga using Guid(b94c589c22e0b454a8d9d1265e4aa333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56239f0890ed46da31d00639b8376386') in 0.013017 seconds 
+  Import took 0.015696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_01_BaseColor.png
+  artifactKey: Guid(7d20a5c930ceaad46824d46e6893f7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_01_BaseColor.png using Guid(7d20a5c930ceaad46824d46e6893f7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19131806d5617295f551f9f65766bd45') in 0.015222 seconds 
+  Import took 0.017835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_09_BaseColor.png
+  artifactKey: Guid(98ad388528092b647bb1e8780f665a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/Baseball Bats/Assets/Textures/PC_Baseball_Bat_09_BaseColor.png using Guid(98ad388528092b647bb1e8780f665a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7759ff7fa53037c63063d7ee4ccbbbfa') in 0.015240 seconds 
+  Import took 0.017964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.481419 seconds.
+  path: Assets/Outside/!Materials Collection/4 Snow Materials/Materials/NewLayer.terrainlayer
+  artifactKey: Guid(4bc73e89ce33e574897e6eae5d4d66c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Outside/!Materials Collection/4 Snow Materials/Materials/NewLayer.terrainlayer using Guid(4bc73e89ce33e574897e6eae5d4d66c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fbbd8a03890d875ac14217436298c2') in 0.017535 seconds 
+  Import took 0.020901 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004229 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.912 seconds
+Domain Reload Profiling:
+	ReloadAssembly (912ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (732ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1484 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.7 MB.
+System memory in use after: 84.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1992.
+Total: 2.710600 ms (FindLiveObjects: 0.142900 ms CreateObjectMapping: 0.042500 ms MarkObjects: 2.504700 ms  DeleteObjects: 0.019400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2707.942692 seconds.
+  path: Assets/Models/Smile.blend
+  artifactKey: Guid(80c7040634407d547afc65e6854e94aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Smile.blend using Guid(80c7040634407d547afc65e6854e94aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f37c7c288a8be34b24fe1c6ea204e8e') in 0.100396 seconds 
+  Import took 0.103814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.844562 seconds.
+  path: Assets/Models/Smile.blend
+  artifactKey: Guid(80c7040634407d547afc65e6854e94aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Smile.blend using Guid(80c7040634407d547afc65e6854e94aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d087895071f45e3b8619389302aa55f') in 0.029366 seconds 
+  Import took 0.032318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.545458 seconds.
+  path: Assets/Models/Smile.blend1
+  artifactKey: Guid(c1b48e6a5e4f32848ad0677de4e14e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Smile.blend1 using Guid(c1b48e6a5e4f32848ad0677de4e14e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475461deb7d9d4cb0a277090201b0778') in 0.004656 seconds 
+  Import took 0.007071 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.848 seconds
+Domain Reload Profiling:
+	ReloadAssembly (849ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (693ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (234ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1484 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.9 MB.
+System memory in use after: 85.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1998.
+Total: 2.923600 ms (FindLiveObjects: 0.137000 ms CreateObjectMapping: 0.041900 ms MarkObjects: 2.729700 ms  DeleteObjects: 0.014100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
